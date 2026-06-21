@@ -122,7 +122,7 @@ Analytics Dashboard & Visualization
 - Behavioral Activity Patterns
 
 ---
-# 📸 Project Screenshots
+# # 🖥️ System Modules and Generated Outputs
 
 ### 📈 Analytics Dashboard
 
@@ -225,34 +225,37 @@ Delivers real-time attention status, confidence metrics, learning resources, ass
 ---
 
 
-# ⚙️ Installation Guide
 
-## Requirements
+## 📥 Installation Guide
 
-- Python 3.11 (for ML models)
-- 8GB RAM (16GB recommended)
--- Webcam
-  
-## Clone Repository
+### Requirements
+
+- Python 3.13+
+- Webcam (Required)
+- 8 GB RAM (16 GB Recommended)
+
+### Setup Instructions
 
 ```bash
+# Clone Repository
 git clone https://github.com/kajal-kupale/CursorCam-Attention-Tracker.git
-cd CursorCam-Attention-Tracker
-```
 
-## Install Dependencies
+# Open Project Directory
+cd "CursorCam Project"
 
-```bash
+# Create Virtual Environment
+python -m venv venv
+
+# Activate Virtual Environment
+venv\Scripts\activate
+
+# Install Dependencies
 pip install -r requirements.txt
-```
 
-## Run Application
-
-```bash
+# Run Application
 streamlit run app.py
 ```
-
-
+````
 
 
 
