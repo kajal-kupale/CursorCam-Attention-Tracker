@@ -129,13 +129,13 @@ The system combines computer vision techniques and user interaction analytics to
 # 📸 Project Screenshots
 
 ### 📈 Analytics Dashboard
-![Analytics Dashboard](Analytics Dashboard.jpeg)
+![Analytics Dashboard](Screenshots/Analytics Dashboard.jpeg)
 
 Visualizes attention scores, engagement trends, and learning behavior through interactive graphs.
 
 
 ### 🎥 Learning Videos
-![Learning Videos](screenshots/videos.png)
+![Learning Videos]("C:\Users\savita\OneDrive\Pictures\Screenshots\Video Page.png")
 
 Provides educational video resources that help users learn concepts while their attention level is monitored in real-time.
 
