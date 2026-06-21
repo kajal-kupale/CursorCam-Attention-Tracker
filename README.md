@@ -53,18 +53,19 @@ Uses webcam-based facial analysis and mouse activity monitoring to detect:
 
 ## ⚙️ Working Pipeline
 
-
+```text
 Webcam + Mouse Tracking
           ↓
    Feature Extraction
           ↓
- Multimodal Feature Fusion
+Multimodal Feature Fusion
           ↓
- Random Forest Classification
+Random Forest Classification
           ↓
    Attention Prediction
           ↓
 Analytics Dashboard & Visualization
+```
 
 
 ---
@@ -94,9 +95,6 @@ Analytics Dashboard & Visualization
 - Mouse click analysis
 - Activity pattern detection
 
----
-
-## 📊 Interactive Analytics Dashboard
 
 ### ✅ Attention Trend Visualization
 
@@ -104,14 +102,8 @@ Analytics Dashboard & Visualization
 - Interactive performance graphs
 - Engagement monitoring
 
-### ✅ Educational Support Modules
-
-- 🎥 Learning Videos
-- 📚 Study Notes
-- 📝 Assessment Module
-- 📈 Analytics Dashboard
-
 ---
+
 
 ## 🔬 Machine Learning Integration
 
@@ -190,57 +182,44 @@ Delivers real-time attention status, confidence metrics, learning resources, ass
 
 ---
 
+
 # 🛠️ Technology Stack
 
-## Programming Language
+### 🤖 Machine Learning
 
-![Python](https://img.shields.io/badge/Python-3.13-yellow?style=for-the-badge&logo=python)
+![Scikit-Learn](https://img.shields.io/badge/SCIKIT--LEARN-LATEST-orange)
+![Random Forest](https://img.shields.io/badge/RANDOM_FOREST-CLASSIFIER-brightgreen)
+![Attention Prediction](https://img.shields.io/badge/ATTENTION_PREDICTION-ML_MODEL-success)
 
-## Machine Learning & AI
+### 👁️ Computer Vision
 
-![Scikit-Learn](https://img.shields.io/badge/SCIKIT--LEARN-ML_Library-orange?style=for-the-badge)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.12.0-green)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10.21-blue)
+![Face Tracking](https://img.shields.io/badge/FACE_TRACKING-ENABLED-0096D6)
 
-![Random Forest](https://img.shields.io/badge/RANDOM_FOREST-CLASSIFIER-brightgreen?style=for-the-badge)
+### 📊 Data Processing
 
-![Attention Prediction](https://img.shields.io/badge/ATTENTION_PREDICTION-ML_MODEL-success?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-2.3.0-purple)
+![NumPy](https://img.shields.io/badge/NumPy-2.3.1-blue)
 
-![Feature Fusion](https://img.shields.io/badge/FEATURE_FUSION-Multimodal-blue?style=for-the-badge)
+### 🖱️ Tracking & Analytics
 
-## Computer Vision
+![Pynput](https://img.shields.io/badge/PYNPUT-MOUSE_TRACKING-red)
+![Plotly](https://img.shields.io/badge/PLOTLY-6.1.2-darkblue)
+![Interactive Charts](https://img.shields.io/badge/INTERACTIVE_CHARTS-ENABLED-blue)
 
-![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?style=for-the-badge)
+### 🌐 Dashboard & UI
 
-![MediaPipe](https://img.shields.io/badge/MediaPipe-Face_Tracking-blue?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/STREAMLIT-1.46.0-FF4B4B)
+![HTML5](https://img.shields.io/badge/HTML5-LATEST-E34F26)
+![CSS3](https://img.shields.io/badge/CSS3-LATEST-1572B6)
 
-![Eye Gaze Tracking](https://img.shields.io/badge/EYE_GAZE-TRACKING-0096D6?style=for-the-badge)
+### 🛠️ Development Tools
 
-![Head Pose Detection](https://img.shields.io/badge/HEAD_POSE-DETECTION-purple?style=for-the-badge)
-
-## Data Processing
-
-![Pandas](https://img.shields.io/badge/Pandas-Latest-purple?style=for-the-badge)
-
-![NumPy](https://img.shields.io/badge/NumPy-Latest-blue?style=for-the-badge)
-
-## User Interaction Tracking
-
-![Pynput](https://img.shields.io/badge/Pynput-Mouse_Tracking-red?style=for-the-badge)
-
-![Mouse Analytics](https://img.shields.io/badge/MOUSE_ACTIVITY-ANALYSIS-darkred?style=for-the-badge)
-
-## Visualization & Dashboard
-
-![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-FF4B4B?style=for-the-badge)
-
-![Plotly](https://img.shields.io/badge/Plotly-Interactive_Charts-darkblue?style=for-the-badge)
-
-## Development Tools
-
-![VS Code](https://img.shields.io/badge/VS_CODE-Editor-007ACC?style=for-the-badge)
-
-![Git](https://img.shields.io/badge/GIT-Version_Control-F05032?style=for-the-badge)
-
-![GitHub](https://img.shields.io/badge/GITHUB-Repository-black?style=for-the-badge)
+![Python](https://img.shields.io/badge/PYTHON-3.13-yellow)
+![VS Code](https://img.shields.io/badge/VS_CODE-EDITOR-007ACC)
+![Git](https://img.shields.io/badge/GIT-VERSION_CONTROL-F05032)
+![GitHub](https://img.shields.io/badge/GITHUB-REPOSITORY-black)
 
 
 ---
