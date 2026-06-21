@@ -91,40 +91,38 @@ The system combines computer vision techniques and user interaction analytics to
 
 # 🛠️ Technology Stack
 
-## Programming Language
+### Frontend
 
-- Python
+![Streamlit](https://img.shields.io/badge/Streamlit-1.45-red?style=for-the-badge&logo=streamlit)
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5)
+![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3)
 
-## Frontend
+### Machine Learning
 
-- Streamlit
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Latest-orange?style=for-the-badge&logo=scikitlearn)
+![Random Forest](https://img.shields.io/badge/Random_Forest-Classifier-green?style=for-the-badge)
 
-## Computer Vision
+### Computer Vision
 
-- OpenCV
-- MediaPipe
+![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?style=for-the-badge&logo=opencv)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-Face_Tracking-blue?style=for-the-badge)
 
-## Machine Learning
+### Data Processing
 
-- Scikit-Learn
-- Random Forest Classifier
-- Joblib
+![Pandas](https://img.shields.io/badge/Pandas-Latest-purple?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Latest-blue?style=for-the-badge&logo=numpy)
 
-## Data Processing
+### Tracking & Analytics
 
-- Pandas
-- NumPy
+![Pynput](https://img.shields.io/badge/Pynput-Mouse_Tracking-red?style=for-the-badge)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive_Charts-darkblue?style=for-the-badge&logo=plotly)
 
-## User Interaction Tracking
+### Development Tools
 
-- Pynput
-
-## Visualization
-
-- Streamlit Charts
-- Plotly
-
----
+![Python](https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge&logo=python)
+![VS Code](https://img.shields.io/badge/VS_Code-Editor-blue?style=for-the-badge&logo=visualstudiocode)
+![Git](https://img.shields.io/badge/Git-Version_Control-orange?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)
 
 # 📸 Project Screenshots
 
@@ -151,7 +149,7 @@ Displays academic notes and learning materials for students.
 ---
 
 ### 📝 Assessment Module
-![Assessment Module](screenshots/Assessment%20Page.png)
+![Assessment Module](Screenshots/Assessment%20Page.png)
 
 Interactive quiz-based assessment system used to evaluate user understanding and engagement.
 
