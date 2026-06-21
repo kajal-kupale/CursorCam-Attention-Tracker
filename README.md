@@ -129,30 +129,42 @@ The system combines computer vision techniques and user interaction analytics to
 # 📸 Project Screenshots
 
 ### 📈 Analytics Dashboard
-![Analytics Dashboard](Screenshots/Analytics Dashboard.jpeg)
+[Analytics Dashboard](Screenshots/Analytics%20Dashboard.png)
 
 Visualizes attention scores, engagement trends, and learning behavior through interactive graphs.
 
 
 ### 🎥 Learning Videos
-![Learning Videos]("C:\Users\savita\OneDrive\Pictures\Screenshots\Video Page.png")
+[Learning Videos](Screenshots/Video%20Page.png)
 
 Provides educational video resources that help users learn concepts while their attention level is monitored in real-time.
 
 ---
 
+## 📚 Study Notes
+
+[Study Notes](Screenshots/Notes%20Page.png)
+
+Displays academic notes and learning materials for students.
+
+---
+
 ### 📝 Assessment Module
-![Assessment Module](screenshots/assessment.png)
+[Assessment Module](screenshots/Assessment%20Page.png)
 
 Interactive quiz-based assessment system used to evaluate user understanding and engagement.
 
 ---
 
+## 📊 Attention Dataset Samples
 
-### 📊 Attention Dataset
-![Attention Dataset](screenshots/attention_data.png)
+[Attention Dataset 1](Screenshots/Attention_Data_1.png)
 
-Stores webcam, gaze, head pose, mouse activity, and attention status data used for machine learning prediction.
+[Attention Dataset 2](Screenshots/Attention_Data_2.png)
+
+[Attention Dataset 3](Screenshots/Attention_Data_3.png)
+
+**Caption:** Displays sample records from the generated attention dataset containing facial features, eye gaze direction, eye state, head pose information, mouse activity, and attention labels. These records are used for training and evaluating the machine learning model for real-time attention classification.
 
 ---
 
