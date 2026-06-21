@@ -3,27 +3,69 @@
 
 ## 📋 Project Description
 
-CursorCam is an AI-powered Attention and Engagement Tracking System developed as a Final Year Bachelor of Engineering (Computer Science & Engineering - Artificial Intelligence & Machine Learning) Major Project.
+CursorCam is A supervised Machine Learning based Attention and Engagement Tracking System developed as a Final Year Bachelor of Engineering (Computer Science & Engineering – Artificial Intelligence & Machine Learning) major project.
 
-The system combines computer vision techniques and user interaction analytics to monitor attention levels in real-time. By analyzing webcam-based facial cues and mouse interaction patterns, CursorCam classifies users as **ATTENTIVE** or **NOT ATTENTIVE** and provides actionable insights through an interactive analytics dashboard.
+The system combines **Computer Vision**, **Behavioral Tracking**, **Feature Fusion**, and a **Random Forest Machine Learning Model** to analyze user attention in real-time. By continuously monitoring facial cues through a webcam and tracking mouse interaction patterns, CursorCam intelligently predicts whether a user is **ATTENTIVE** or **NOT ATTENTIVE** during digital learning activities.
 
-### 🔍 Key Objectives
+The collected multimodal data is processed and fused into meaningful features, which are then classified using a trained Random Forest model. The results are presented through an interactive dashboard containing real-time attention status, assessment modules, learning resources, and analytical visualizations.
 
-- Monitor user attention in real-time using webcam analysis
-- Track mouse activity and interaction behavior
+---
+
+## 🚀 Core Working of CursorCam
+
+### 🤖 Random Forest Classifier
+
+A supervised Machine Learning model trained on multimodal attention data to classify user attention levels as **ATTENTIVE** or **NOT ATTENTIVE** with confidence scores.
+
+### 🧠 Attention Prediction Engine
+
+Analyzes real-time user behavior and continuously predicts engagement levels using extracted visual and behavioral features.
+
+### 🔗 Feature Fusion
+
+Combines facial features and mouse interaction data into a unified feature vector, improving prediction accuracy and robustness.
+
+### 👁️ Computer Vision & Behavioral Tracking
+
+Uses webcam-based facial analysis and mouse activity monitoring to detect:
+
+- Face Presence Detection
+- Eye Gaze Direction Tracking
+- Eye State (Open / Closed)
+- Head Pose Estimation
+- Mouse Movement Analysis
+- Mouse Click Activity
+- User Interaction Patterns
+
+---
+
+## 🔍 Key Objectives
+
+- Monitor user attention in real-time
 - Detect engagement using facial and behavioral features
-- Generate visual analytics for attention monitoring
-- Support digital learning and online assessment environments
-- Provide intelligent attention prediction using Machine Learning
+- Predict attention levels using Machine Learning
+- Analyze learning behavior through multimodal data
+- Generate visual analytics and attention reports
+- Support intelligent digital learning environments
 
-### 🎯 Target Applications
+---
 
-- Online Learning Platforms
-- Smart Classrooms
-- E-Learning Analytics
-- Student Engagement Monitoring
-- Remote Training Programs
-- Educational Research
+
+## ⚙️ Working Pipeline
+
+
+Webcam + Mouse Tracking
+          ↓
+   Feature Extraction
+          ↓
+ Multimodal Feature Fusion
+          ↓
+ Random Forest Classification
+          ↓
+   Attention Prediction
+          ↓
+Analytics Dashboard & Visualization
+
 
 ---
 
@@ -88,42 +130,6 @@ The system combines computer vision techniques and user interaction analytics to
 - Behavioral Activity Patterns
 
 ---
-
-# 🛠️ Technology Stack
-
-### Frontend
-
-![Streamlit](https://img.shields.io/badge/Streamlit-1.45-red?style=for-the-badge&logo=streamlit)
-![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5)
-![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3)
-
-### Machine Learning
-
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Latest-orange?style=for-the-badge&logo=scikitlearn)
-![Random Forest](https://img.shields.io/badge/Random_Forest-Classifier-green?style=for-the-badge)
-
-### Computer Vision
-
-![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?style=for-the-badge&logo=opencv)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-Face_Tracking-blue?style=for-the-badge)
-
-### Data Processing
-
-![Pandas](https://img.shields.io/badge/Pandas-Latest-purple?style=for-the-badge&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-Latest-blue?style=for-the-badge&logo=numpy)
-
-### Tracking & Analytics
-
-![Pynput](https://img.shields.io/badge/Pynput-Mouse_Tracking-red?style=for-the-badge)
-![Plotly](https://img.shields.io/badge/Plotly-Interactive_Charts-darkblue?style=for-the-badge&logo=plotly)
-
-### Development Tools
-
-![Python](https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge&logo=python)
-![VS Code](https://img.shields.io/badge/VS_Code-Editor-blue?style=for-the-badge&logo=visualstudiocode)
-![Git](https://img.shields.io/badge/Git-Version_Control-orange?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)
-
 # 📸 Project Screenshots
 
 ### 📈 Analytics Dashboard
@@ -132,15 +138,16 @@ The system combines computer vision techniques and user interaction analytics to
 
 Visualizes attention scores, engagement trends, and learning behavior through interactive graphs.
 
+---
 
-### 🎥 Learning Videos
+### 🎥 Videos Section
 ![Learning Videos](Screenshots/Video%20Page.png)
 
 Provides educational video resources that help users learn concepts while their attention level is monitored in real-time.
 
 ---
 
-## 📚 Study Notes
+## 📚 Notes Section
 
 ![Study Notes](Screenshots/Notes%20Page.png)
 
@@ -163,36 +170,90 @@ Interactive quiz-based assessment system used to evaluate user understanding and
 
 ![Attention Dataset 3](Screenshots/Attention_Data_3.png)
 
-**Caption:** Displays sample records from the generated attention dataset containing facial features, eye gaze direction, eye state, head pose information, mouse activity, and attention labels. These records are used for training and evaluating the machine learning model for real-time attention classification.
+ Displays sample records from the generated attention dataset containing facial features, eye gaze direction, eye state, head pose information, mouse activity, and attention labels. These records are used for training and evaluating the machine learning model for real-time attention classification.
 
 ---
 
+### 🌟 Technology Integration
 
-# 📁 Project Structure
+🧠 **Machine Learning-Powered Attention Prediction:**  
+Employs a Random Forest Classifier to intelligently classify users as **ATTENTIVE** or **NOT ATTENTIVE** in real time.
 
-```text
-CursorCam Project/
-│
-├── app.py
-├── pages/
-├── utils/
-├── data/
-├── logs/
-├── outputs/
-├── screenshots/
-├── requirements.txt
-└── README.md
-```
+👁️ **Advanced Computer Vision System:**  
+Integrates OpenCV and MediaPipe to extract facial landmarks, eye gaze direction, eye state, and head pose features.
+
+🔗 **Multimodal Behavioral Analytics:**  
+Fuses visual attention indicators with mouse interaction patterns to improve prediction accuracy and engagement assessment.
+
+📊 **Interactive Analytics & Learning Dashboard:**  
+Delivers real-time attention status, confidence metrics, learning resources, assessments, and analytical insights through an intuitive Streamlit interface.
+
 ---
+
+# 🛠️ Technology Stack
+
+## Programming Language
+
+![Python](https://img.shields.io/badge/Python-3.13-yellow?style=for-the-badge&logo=python)
+
+## Machine Learning & AI
+
+![Scikit-Learn](https://img.shields.io/badge/SCIKIT--LEARN-ML_Library-orange?style=for-the-badge)
+
+![Random Forest](https://img.shields.io/badge/RANDOM_FOREST-CLASSIFIER-brightgreen?style=for-the-badge)
+
+![Attention Prediction](https://img.shields.io/badge/ATTENTION_PREDICTION-ML_MODEL-success?style=for-the-badge)
+
+![Feature Fusion](https://img.shields.io/badge/FEATURE_FUSION-Multimodal-blue?style=for-the-badge)
+
+## Computer Vision
+
+![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?style=for-the-badge)
+
+![MediaPipe](https://img.shields.io/badge/MediaPipe-Face_Tracking-blue?style=for-the-badge)
+
+![Eye Gaze Tracking](https://img.shields.io/badge/EYE_GAZE-TRACKING-0096D6?style=for-the-badge)
+
+![Head Pose Detection](https://img.shields.io/badge/HEAD_POSE-DETECTION-purple?style=for-the-badge)
+
+## Data Processing
+
+![Pandas](https://img.shields.io/badge/Pandas-Latest-purple?style=for-the-badge)
+
+![NumPy](https://img.shields.io/badge/NumPy-Latest-blue?style=for-the-badge)
+
+## User Interaction Tracking
+
+![Pynput](https://img.shields.io/badge/Pynput-Mouse_Tracking-red?style=for-the-badge)
+
+![Mouse Analytics](https://img.shields.io/badge/MOUSE_ACTIVITY-ANALYSIS-darkred?style=for-the-badge)
+
+## Visualization & Dashboard
+
+![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-FF4B4B?style=for-the-badge)
+
+![Plotly](https://img.shields.io/badge/Plotly-Interactive_Charts-darkblue?style=for-the-badge)
+
+## Development Tools
+
+![VS Code](https://img.shields.io/badge/VS_CODE-Editor-007ACC?style=for-the-badge)
+
+![Git](https://img.shields.io/badge/GIT-Version_Control-F05032?style=for-the-badge)
+
+![GitHub](https://img.shields.io/badge/GITHUB-Repository-black?style=for-the-badge)
+
+
+---
+
 
 # ⚙️ Installation Guide
 
 ## Requirements
 
-- Python 3.10+
-- Webcam
-- Windows 10/11
-
+- Python 3.11 (for ML models)
+- 8GB RAM (16GB recommended)
+-- Webcam
+  
 ## Clone Repository
 
 ```bash
@@ -218,6 +279,5 @@ streamlit run app.py
 
 
 
-# 📜 License
 
-This project is developed for academic and educational purposes.
+
