@@ -126,47 +126,35 @@ The system combines computer vision techniques and user interaction analytics to
 
 ---
 
-# 📂 Project Modules
-
-### 🎥 Learning Videos
-
-Provides educational video resources for learners.
-
-### 📚 Study Notes
-
-Displays academic notes and learning materials.
-
-### 📝 Assessment Module
-
-Conducts quizzes and assessments for knowledge evaluation.
+# 📸 Project Screenshots
 
 ### 📈 Analytics Dashboard
+![Analytics Dashboard](Analytics Dashboard.jpeg)
 
-Visualizes user attention and engagement trends through interactive graphs.
+Visualizes attention scores, engagement trends, and learning behavior through interactive graphs.
+
+
+### 🎥 Learning Videos
+![Learning Videos](screenshots/videos.png)
+
+Provides educational video resources that help users learn concepts while their attention level is monitored in real-time.
 
 ---
 
-# 📸 Project Screenshots
+### 📝 Assessment Module
+![Assessment Module](screenshots/assessment.png)
 
-## Dashboard
+Interactive quiz-based assessment system used to evaluate user understanding and engagement.
 
-![Dashboard](screenshots/dashboard.png)
+---
 
-## Learning Videos
 
-![Videos](screenshots/videos.png)
+### 📊 Attention Dataset
+![Attention Dataset](screenshots/attention_data.png)
 
-## Study Notes
+Stores webcam, gaze, head pose, mouse activity, and attention status data used for machine learning prediction.
 
-![Notes](screenshots/notes.png)
-
-## Assessment Module
-
-![Assessment](screenshots/assessment.png)
-
-## Analytics Dashboard
-
-![Analytics](screenshots/analytics.png)
+---
 
 ---
 
